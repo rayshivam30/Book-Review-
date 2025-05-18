@@ -1,0 +1,16 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+.book {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+  background: #f9f9f9;
+}
+
+img {
+  max-height: 150px;
+}
