@@ -20,7 +20,7 @@ app.use(express.urlencoded({extended: true}));
 app.use(express.static(path.join(__dirname,"public")));
 
 app.use(session({
-  secret: 'secret123', // Replace with strong secret in production
+  secret: session.env.SESSION_SECRET, // Replace with strong secret in production
   resave: false,
   saveUninitialized: true
 }));
